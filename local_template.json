@@ -1,0 +1,22 @@
+{
+  "alexa-libby": {
+    "server": {
+      "hostname": "https://abachi.dray.be",
+      "port": 443
+    },
+    "movies": {
+      "provider": "couchpotato",
+      "server": {
+        "apiKey": "__couchpotato_api_key__",
+        "urlBase": "https://couchpotato.dray.be"
+      }
+    },
+    "shows": {
+      "provider": "sonarr",
+      "server": {
+        "apiKey": "__sonarr_api_key__",
+        "urlBase": "https://sonarr.dray.be"
+      }
+    }
+  }
+}
